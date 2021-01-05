@@ -1,7 +1,10 @@
+import CandidateList from "./components/CandidateList";
+import "./app.css";
+
 function App() {
   return (
-    <div className="App">
-      <h1>Runnig...</h1>
+    <div className="app">
+      <CandidateList />
     </div>
   );
 }
